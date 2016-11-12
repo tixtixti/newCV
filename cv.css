@@ -1,0 +1,93 @@
+body{
+	color: #FFFFFF;
+	font-family: 'Titillium Web', sans-serif;
+}
+button {
+	background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:9px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+button:hover {
+	background-color:#5cbf2a;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+.flexFlex{
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	font-weight: bold;
+	box-sizing: border-box;
+	flex-direction: row;
+}
+#right {
+  flex: 1 300px;
+  min-width: 0;
+  padding: 15px 0;
+}
+#right > img:first-child {
+	height: 300px;
+	border-radius: 100px;
+}
+.imgSm {
+	height: 100px;
+	padding: 5px
+}
+.imgSm2 {
+	height: 100px;
+	width: 200px;
+}
+#left {
+  flex: 1 300px;
+  min-width: 0;
+  padding: 15px 0;
+}
+ h3{
+	flex: 1;
+	text-align: center;
+}
+a{
+	padding: 10px
+}
+h3{
+	padding:  20px;
+}
+#main {
+
+    min-height: 800px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-flow: column;
+}
+
+	#main > article {
+		background-image: url('./pohja.jpg');
+		margin: 1px;
+	    padding: 5px;
+	    flex: 3 1 60%;
+	    order: 2;
+	}
+	#main > article:nth-child(even) {
+ 		background: lightseagreen;
+	}
+
+	#main > header{
+			background-image: url('./pohja.jpg');
+        padding: 5px;
+        min-height: 200px;
+
+	}
