@@ -61,19 +61,27 @@ a{
 	padding: 5px
 }
 
-.project{
+.dataBox-white{
 	margin: 10px;
-	box-shadow: 0px 0px 10px 1px #000000;
+	padding: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 25px;
+	border-color: #6a9893;
 }
 .project > h3{
 	color: #11DFC7;
-	padding: 5px;
 }
-.edu{
-	box-shadow: 0px 0px 10px 1px #000000;
-	margin:10px;
+.databox-color{
+	margin: 10px;
 	padding: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 25px;
+	border-color: #FFFFFF;
+	text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
 }
+
 #main {
 
     min-height: 800px;
@@ -86,11 +94,10 @@ a{
 	#main > article {
 		background-image: url('./tausta2.jpg');
 		background-size: cover;
-		max-height: 800px;
 		margin: 1px;
-	    padding: 5px;
-	    flex: 3 1 60%;
-	    order: 2;
+	  padding: 5px;
+	  flex: 3 1 60%;
+	  order: 2;
 	}
 	#main > article:nth-child(even) {
  		background: white;
