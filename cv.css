@@ -26,14 +26,20 @@ button:active {
 	top:1px;
 }
 
+@media all and (max-width: 550px) {
+  .flexFlex {
+			flex-flow: column wrap;
+  }
+}
 .flexFlex{
 	display: flex;
-	flex-wrap: wrap;
 	text-align: center;
 	font-weight: bold;
 	box-sizing: border-box;
 	flex-direction: row;
+	flex-wrap: wrap;
 }
+
 #right {
   flex: 1 300px;
   min-width: 0;
@@ -58,7 +64,8 @@ button:active {
 
 }
 a{
-	padding: 5px
+	padding: 5px;
+	color: #6a9893;
 }
 
 .dataBox-white{
