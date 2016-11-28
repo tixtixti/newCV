@@ -36,16 +36,15 @@ button:active {
 	text-align: center;
 	font-weight: bold;
 	box-sizing: border-box;
-	flex-direction: row;
-	flex-wrap: wrap;
+	flex-flow: row wrap;
 }
 
-#right {
+.right {
   flex: 1 300px;
   min-width: 0;
   padding: 15px 0px -10px 20px;
 }
-#right > img:first-child {
+.right > img:first-child {
 	height: 300px;
 	border-radius: 100px;
 }
@@ -57,7 +56,7 @@ button:active {
 	height: 100px;
 	width: 200px;
 }
-#left {
+.left {
   flex: 1 300px;
   min-width: 0;
   padding: 15px 0px -10px 20px;
@@ -119,10 +118,9 @@ a{
 		flex: 1;
 		text-align: center;
 	}
-
 	#main > header{
-			background-image: url('./tausta2.jpg');
-			background-size: cover;
-        padding: 5px;
-        min-height: 200px;
+		background-image: url('./tausta2.jpg');
+		background-size: cover;
+	  padding: 5px;
+	  min-height: 200px;
 	}
